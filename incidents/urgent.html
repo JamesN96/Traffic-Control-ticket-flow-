@@ -4,35 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\css\styles.css">
     <title>How urgent is it?</title>
 </head>
 
 <body>
-    <h1>How Urgent is it?</h1>
-
-    <img src="\images\urgent-img.png" alt="Table of urgency guide">
-
-    <button>
-        P1
-    </button>
-    <button>
-        P2
-    </button>
-    <button>
-        <a href="osmo.html">
-            P3
-        </a>
-    </button>
-
-    <div class="return-div">
-        <button class="previous-btn" id="back-btn" onclick="history.back()">
-            Back
-        </button>
-        <button class="previous-btn" id="home-btn">
-            <a href="/index.html">
-                Home
-            </a> 
-        </button>
+    <div class="container">
+        <video src="https://www.themissinglink.com.au/hubfs/Videos/General_optimised%20(1).mp4" playsinline autoplay muted loop> </video>
+    
+        <div class="overlay">
+            <header>
+                <h1 id="main-heading">
+                    <h1>How Urgent is it?</h1>
+                </h1>
+            
+            </header>
+           
+            <main>
+                <img src="\images\urgent-img.png" alt="Table of urgency guide">
+                <div>
+                    <p>Choose one of the options below!</p>
+                </div>
+        
+                <div id="button-div">
+                    <button>
+                        P1
+                    </button>
+                    <button>
+                        P2
+                    </button>
+                    <button>
+                        <a href="osmo.html">
+                            P3
+                        </a>
+                    </button>
+                
+                    <div class="return-div">
+                        <button class="previous-btn" id="back-btn" onclick="history.back()">
+                            Back
+                        </button>
+                        <button class="previous-btn" id="home-btn">
+                            <a href="/index.html">
+                                Home
+                            </a> 
+                        </button>
+                    </div>
+                </div>
+            </main>
+        </div>
+        
     </div>
 </body>
 </html>
