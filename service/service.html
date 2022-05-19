@@ -4,34 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\css\styles.css">
     <title>Service Request tickets</title>
 </head>
 <body>
-    <h1>Service Requests tickets</h1>
-    <h2>Is this a fast track ticket </h2>
-    <ul>
-        <li>Mimecast release tickets</li>
-        <li>Adding/Blocking user</li>
-        <li>Adding/Removing users from distriubtion lists</li>
-        <li>Password resets</li>
-    </ul>
+    <div class="container">
+        <video src="https://www.themissinglink.com.au/hubfs/Videos/General_optimised%20(1).mp4" playsinline autoplay muted loop> </video>
 
-    <button>
-        Yes
-    </button>
-    <button>
-        <a href="standard.html">No</a> 
-    </button>
+        <div class="overlay">
+            <header>
+                <h1 id="main-heading">
+                    Service ticket requests
+                </h1>
+            
+                <h2>
+                    Is this a fast track ticket?
+                </h2>    
+            </header>
+           
+            <main>
+        
+                <div>
+                    <p>Choose one of the options below!</p>
+                </div>
 
-    <div class="return-div">
-        <button class="previous-btn" id="back-btn" onclick="history.back()">
-            Back
-        </button>
-        <button class="previous-btn" id="home-btn">
-            <a href="/index.html">
-                Home
-            </a> 
-        </button>
+                <div class="list-container">
+                    <ul>
+                        <li>Mimecast release tickets</li>
+                        <li>Adding/Blocking user</li>
+                        <li>Adding/Removing users from distriubtion lists</li>
+                        <li>Password resets</li>
+                    </ul>
+                </div>
+        
+                <div id="button-div">
+                    <button>
+                        Yes
+                    </button>
+                    <button>
+                        <a href="standard.html">No</a> 
+                    </button>
+                
+                    <div class="return-div">
+                        <button class="previous-btn" id="back-btn" onclick="history.back()">
+                            Back
+                        </button>
+                        <button class="previous-btn" id="home-btn">
+                            <a href="/index.html">
+                                Home
+                            </a> 
+                        </button>
+                    </div>
+                </div>
+            </main>
+        </div>
     </div>
 </body>
 </html>
