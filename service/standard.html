@@ -4,38 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\css\styles.css">
     <title>Standard ticket requests</title>
 </head>
 <body>
-    <h1>Is this a standard request?</h1>
-    <ul>
-        <li>
-           Set up PC (Build and deploy)
-        </li>
-        <li>
-            Install software
-        </li>
-        <li>
-            Add/Remove User requests
-        </li>
-    </ul>
+    <div class="container">
+        <video src="https://www.themissinglink.com.au/hubfs/Videos/General_optimised%20(1).mp4" playsinline autoplay muted loop> </video>
 
-    <button>
-        <a href="company.html">Yes</a>
-    </button>
-    <button>
-        <a href="major.html">No</a>
-    </button>
+        <div class="overlay">
+            <header>
+                <h1 id="main-heading">
+                    Is this a standard request?
+                </h1>
+            
+                <h2>
+                    What type of ticket is it?
+                </h2>    
+            </header>
+           
+            <main>
+        
+                <div>
+                    <p>Choose one of the options below!</p>
+                </div>
 
-    <div class="return-div">
-        <button class="previous-btn" id="back-btn" onclick="history.back()">
-            Back
-        </button>
-        <button class="previous-btn" id="home-btn">
-            <a href="/index.html">
-                Home
-            </a> 
-        </button>
+                <div class="list-container">
+                    <ul>
+                        <li>
+                           Set up PC (Build and deploy)
+                        </li>
+                        <li>
+                            Install software
+                        </li>
+                        <li>
+                            Add/Remove User requests
+                        </li>
+                    </ul>
+                </div>
+        
+                <div id="button-div">
+                    <button>
+                        <a href="company.html">Yes</a>
+                    </button>
+                    <button>
+                        <a href="major.html">No</a>
+                    </button>
+                
+                    <div class="return-div">
+                        <button class="previous-btn" id="back-btn" onclick="history.back()">
+                            Back
+                        </button>
+                        <button class="previous-btn" id="home-btn">
+                            <a href="/index.html">
+                                Home
+                            </a> 
+                        </button>
+                    </div>
+                </div>
+              
+            </main>
+        </div>
+        
     </div>
 </body>
 </html>
