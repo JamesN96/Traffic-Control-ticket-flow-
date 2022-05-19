@@ -4,30 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\css\styles.css">
     <title>Alert Tickets</title>
 </head>
 <body>
-    <h1>Alert Tickets</h1>
-    <h2>Which of the following alerts is it?</h2>
+    <div class="container">
+        <video src="https://www.themissinglink.com.au/hubfs/Videos/General_optimised%20(1).mp4" playsinline autoplay muted loop> </video>
 
-    <ul>
-        <li>SOPHOS/skykick alert</li>
-        <li>Automox alert</li>
-        <li>Pure Storage Alert</li>
-        <li>N-Central TML alert</li>
-        <li>N-Central external alert</li>
-        <li>scienceLogic Alert</li>
-    </ul>
+        <div class="overlay">
+            <header>
+                <h1 id="main-heading">
+                   Alert tickets
+                </h1>
+            
+                <h2>
+                    Which of the following alerts is it?
+                </h2>    
+            </header>
+           
+            <main>
+        
+                <div>
+                    <p>Choose one of the options below!</p>
+                </div>
 
-    <div class="return-div">
-        <button class="previous-btn" id="back-btn" onclick="history.back()">
-            Back
-        </button>
-        <button class="previous-btn" id="home-btn">
-            <a href="/index.html">
-                Home
-            </a> 
-        </button>
+                <div class="list-container">
+                    <ul>
+                        <li>SOPHOS/skykick alert</li>
+                        <li>Automox alert</li>
+                        <li>Pure Storage Alert</li>
+                        <li>N-Central TML alert</li>
+                        <li>N-Central external alert</li>
+                        <li>scienceLogic Alert</li>
+                    </ul>
+                </div>
+        
+                <div id="button-div">
+                    <div class="return-div">
+                        <button class="previous-btn" id="back-btn" onclick="history.back()">
+                            Back
+                        </button>
+                        <button class="previous-btn" id="home-btn">
+                            <a href="/index.html">
+                                Home
+                            </a> 
+                        </button>
+                    </div>
+                </div>
+              
+            </main>
+        </div>
     </div>
 </body>
 </html>
