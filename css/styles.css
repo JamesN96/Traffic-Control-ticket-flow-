@@ -6,12 +6,23 @@ body {
 }
 
 header, main {
-    margin: 5rem auto 0;
+    margin: 7rem auto 0;
     text-align: center;
 }
 
 header {
     font-size: 28px;
+    background: #f26622;
+    background-image: linear-gradient(-58deg,#e60e64,#fe6500);
+    padding: 1rem;
+}
+
+main {
+    background-color: #000;
+    /* width: 70%; */
+    padding: 6rem 4rem;
+    border-radius: 5px;
+    color:#fff;
 }
 
 button {
