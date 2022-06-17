@@ -74,3 +74,33 @@ a:link, a:visited {
     width:100%;
     z-index:1;
 }
+
+.list-container ul li {
+   list-style: none;
+}
+
+.return-div {
+    display: flex;
+    justify-content: start;
+    margin-top: 2rem;
+}
+
+#popup {
+    height: 300px;
+    border: 5px solid black;
+    width: 500px;
+    margin: 0 auto;
+    z-index: 100;
+    display: none;
+    background-color: #fff;
+    color: #000;
+}
+
+#popup p {
+    
+}
+
+.display {
+    display: block;
+    z-index: 100;
+}
