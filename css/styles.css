@@ -101,11 +101,11 @@ a:link, a:visited {
 }
 
 .popup {
-    width: 400px;
+    width: 600px;
     height: 500px;
     z-index: 10;
     background: #fff;
-    border-radius: 6px;
+    border-radius: 15px;
     position: absolute;
     top: 70%;
     left: 50%;
@@ -113,8 +113,13 @@ a:link, a:visited {
     text-align: center;
     padding: 0 30px 30px;
     visibility: hidden;
-    transition: transform 0.4s top 0,4s;
+    transition: transform 0.4s, top 0.4s;
     color: black;
+}
+
+.popup p {
+    padding-top: 180px;
+    font-size: 32px;
 }
 
 .open-popup {
