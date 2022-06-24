@@ -8,6 +8,15 @@
     <title>Do we have an OSMO guide for it?</title>
 </head>
 <body>
+    <div class="popup" id="popup">
+        <p>Please assign to an associate</p>
+        <button onclick="closePopup()" id="close">Close</button>
+    </div>
+
+    <div class="popup" id="osmo">
+        <p>Please assign to an L1</p>
+        <button onclick="closeOsmo()" id="close">Close</button>
+    </div>
     
     <div class="container">
         <video src="https://www.themissinglink.com.au/hubfs/Videos/General_optimised%20(1).mp4" playsinline autoplay muted loop> </video>
@@ -29,10 +38,10 @@
                     <p>Choose one of the options below!</p>
                 </div>
         
-                <button>
+                <button onclick="openPopup()">
                     Yes
                 </button>
-                <button>
+                <button onclick="openOsmo()">
                     No
                 </button>
             
@@ -49,7 +58,9 @@
             </main>
         </div>
         
-    </div>   
+    </div>
+
+    <script type="text/javascript" src="..\index.js"></script>
     
 </body>
 </html>
