@@ -8,9 +8,13 @@
 
 var popup = document.getElementById("popup");
 
-document.getElementById('hel').onclick = function sayHello() {
+function openPopup() {
+    popup.classList.add("open-popup");
+}
 
-    popup.style.display = "block";
+// document.getElementById('hel').onclick = function sayHello() {
+
+//     popup.style.display = "block";
  
- }
+//  }
 
