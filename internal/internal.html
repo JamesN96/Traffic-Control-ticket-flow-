@@ -8,8 +8,57 @@
     <title>Internal TML tickets</title>
 </head>
 <body>
+    <div class="popup" id="office">
+        <p>Please assign to a TL</p>
+        <button onclick="closeOffice()" id="close">Close</button>
+    </div>
 
-<div class="container">
+    <div class="popup" id="lastpass">
+        <p>Please assign to a TL</p>
+        <button onclick="closeLastPass()" id="close">Close</button>
+    </div>
+
+    <div class="popup" id="permissions">
+        <p>Please assign to an L1</p>
+        <button onclick="closePermissions()" id="close">Close</button>
+    </div>
+
+    <div class="popup" id="laps">
+        <p>Please assign to an L1</p>
+        <button onclick="closeLaps()" id="close">Close</button>
+    </div>
+
+    <div class="popup" id="basic">
+        <p>Please assign to an associate</p>
+        <button onclick="closeBasic()" id="close">Close</button>
+    </div>
+
+    <div class="popup" id="cw">
+        <p>Please assign to an L1</p>
+        <button onclick="closeCw()" id="close">Close</button>
+    </div>
+
+    <div class="popup" id="cloud">
+        <p>Please assign to an L2</p>
+        <button onclick="closeCloud()" id="close">Close</button>
+    </div>
+
+    <div class="popup" id="networking">
+        <p>Please assign to an L2</p>
+        <button onclick="closeNetworking()" id="close">Close</button>
+    </div>
+
+    <div class="popup" id="password">
+        <p>Please assign to an L1</p>
+        <button onclick="closePassword()" id="close">Close</button>
+    </div>
+
+    <div class="popup" id="p3">
+        <p>Please assign to an associate</p>
+        <button onclick="closeP3()" id="close">Close</button>
+    </div>
+
+    <div class="container">
         <video src="https://www.themissinglink.com.au/hubfs/1080098270-hd.mov" playsinline autoplay muted loop> </video>
 
         <div class="overlay">
@@ -22,27 +71,43 @@
             </header>
            
             <main>
-        
                 <div>
                     <p>Choose one of the options below!</p>
                 </div>
-
-                <div class="list-container">
-                    <ul>
-                        <li>Office 365 change tickets</li>
-                        <li>Lastpass tickets</li>
-                        <li>Permission tickets</li>
-                        <li>LAPS tickets</li>
-                        <li>Basic troubleshooting tickets</li>
-                        <li>Connectwise tickets</li>
-                        <li>SmartCloud tickets</li>
-                        <li>Networking tickets</li>
-                        <li>Password Reset tickets</li>
-                        <li>All other P3 tickets</li>
-                    </ul>
-                </div>
-        
+    
                 <div id="button-div">
+                  
+                        <button onclick="openOffice()">
+                            Office 365 change tickets
+                        </button>
+                        <button onclick="openLastPass()">
+                            Lastpass tickets
+                        </button>
+                        <button onclick="openPermissions()">
+                            Permission tickets
+                        </button>
+                        <button onclick="openLaps()">
+                            LAPS tickets
+                        </button>
+                        <button onclick="openBasic()">
+                            Basic troubleshooting tickets
+                        </button>
+                        <button onclick="openCw()">
+                            Connectwise tickets
+                        </button>
+                        <button onclick="openCloud()">
+                            SmartCloud tickets
+                        </button>
+                        <button onclick="openNetworking()">
+                            Networking tickets
+                        </button>
+                        <button onclick="openPassword()">
+                            Password Reset tickets
+                        </button>
+                        <button onclick="openP3()">
+                            All other P3 tickets
+                        </button>
+
                     <div class="return-div">
                         <button class="previous-btn" id="back-btn" onclick="history.back()">
                             Back
@@ -59,6 +124,7 @@
         </div>
         
     </div>
+    <script type="text/javascript" src="..\index.js"></script>
     
 </body>
 
