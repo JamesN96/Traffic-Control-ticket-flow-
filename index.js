@@ -16,6 +16,13 @@ var p3 = document.getElementById("p3");
 var glassons = document.getElementById("glassons");
 var nsw = document.getElementById("nsw");
 var other = document.getElementById("other");
+var sophos = document.getElementById("sophos");
+var automox = document.getElementById("automox");
+var pure = document.getElementById("pure");
+var internal = document.getElementById("internal");
+var external = document.getElementById("external");
+var logic = document.getElementById("logic");
+
 
 
 function closePopup() {
@@ -155,4 +162,51 @@ function openOther() {
 
 function closeOther() {
     other.classList.remove("open-popup");
+}
+
+// Alerts functions
+
+function openSophos() {
+    sophos.classList.add("open-popup");
+}
+function closeSophos() {
+    sophos.classList.remove("open-popup");
+}
+
+function openAutomox() {
+    automox.classList.add("open-popup");
+}
+function closeAutomox() {
+    automox.classList.remove("open-popup");
+}
+
+function openPure() {
+    pure.classList.add("open-popup");
+}
+
+function closePure() {
+    pure.classList.remove("open-popup");
+}
+
+function openInternal() {
+    internal.classList.add("open-popup");
+}
+function closeInternal() {
+    internal.classList.remove("open-popup");
+}
+
+function openExternal() {
+    external.classList.add("open-popup");
+}
+
+function closeExternal() {
+    external.classList.remove("open-popup");
+}
+
+function openLogic() {
+   logic.classList.add("open-popup");
+}
+
+function closeLogic() {
+    logic.classList.remove("open-popup");
 }
