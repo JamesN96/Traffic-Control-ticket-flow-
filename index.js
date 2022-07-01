@@ -13,7 +13,9 @@ var cloud = document.getElementById("cloud");
 var networking = document.getElementById("networking");
 var password = document.getElementById("password");
 var p3 = document.getElementById("p3");
-
+var glassons = document.getElementById("glassons");
+var nsw = document.getElementById("nsw");
+var other = document.getElementById("other");
 
 
 function closePopup() {
@@ -128,4 +130,29 @@ function openP3() {
 
 function closeP3() {
     p3.classList.remove("open-popup");
+}
+
+// Subcontractor functions
+function openGlassons() {
+    glassons.classList.add("open-popup");
+}
+
+function closeGlassons() {
+    glassons.classList.remove("open-popup");
+}
+
+function openNsw() {
+    nsw.classList.add("open-popup");
+}
+
+function closeNsw() {
+    nsw.classList.remove("open-popup");
+}
+
+function openOther() {
+    other.classList.add("open-popup");
+}
+
+function closeOther() {
+    other.classList.remove("open-popup");
 }
