@@ -3,6 +3,16 @@ var close = document.getElementById("close");
 var scg = document.getElementById("popup-scg");
 var osmo = document.getElementById("osmo");
 var L2 = document.getElementById("L2");
+var office = document.getElementById("office");
+var lastpass = document.getElementById("lastpass");
+var permissions = document.getElementById("permissions");
+var laps = document.getElementById("laps");
+var basic = document.getElementById("basic");
+var cw = document.getElementById("cw");
+var cloud = document.getElementById("L2");
+var networking = document.getElementById("L2");
+var password = document.getElementById("L2");
+var p3 = document.getElementById("p3");
 
 
 
