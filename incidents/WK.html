@@ -9,6 +9,11 @@
 </head>
 
 <body>
+    <div class="popup" id="popup">
+        <p>Please assign to an associate</p>
+        <button onclick="closePopup()" id="close">Close</button>
+    </div>
+
     <div class="container">
         <video src="https://www.themissinglink.com.au/hubfs/Videos/General_optimised%20(1).mp4" playsinline autoplay muted loop> </video>
     
@@ -25,7 +30,7 @@
                 </div>
         
                 <div id="button-div">
-                    <button>
+                    <button onclick="openPopup()">
                         Yes
                     </button>
                     <button>
@@ -48,8 +53,10 @@
                 </div>
             </main>
         </div>
-        
     </div>
+
+    <script type="text/javascript" src="..\index.js"></script>
+
 </body>
 
 </html>
