@@ -9,6 +9,31 @@
 </head>
 <body>
     <div class="container">
+        <div class="popup" id="sophos">
+            <p>Please assign to an associate</p>
+            <button onclick="closeSophos()" id="close">Close</button>
+        </div>
+        <div class="popup" id="automox">
+            <p>Please assign to an associate</p>
+            <button onclick="closeAutomox()" id="close">Close</button>
+        </div>
+        <div class="popup" id="pure">
+            <p>Please assign to David</p>
+            <button onclick="closePure()" id="close">Close</button>
+        </div>
+        <div class="popup" id="internal">
+            <p>Please assign to an L2</p>
+            <button onclick="closeInternal()" id="close">Close</button>
+        </div>
+        <div class="popup" id="external">
+            <p>Please assign to an L1</p>
+            <button onclick="closeExternal()" id="close">Close</button>
+        </div>
+        <div class="popup" id="logic">
+            <p>Please assign to an L1</p>
+            <button onclick="closeLogic()" id="close">Close</button>
+        </div>
+
         <video src="https://www.themissinglink.com.au/hubfs/1080098270-hd.mov" playsinline autoplay muted loop> </video>
 
         <div class="overlay">
@@ -27,19 +52,26 @@
                 <div>
                     <p>Choose one of the options below!</p>
                 </div>
-
-                <div class="list-container">
-                    <ul>
-                        <li>SOPHOS/skykick alert</li>
-                        <li>Automox alert</li>
-                        <li>Pure Storage Alert</li>
-                        <li>N-Central TML alert</li>
-                        <li>N-Central external alert</li>
-                        <li>scienceLogic Alert</li>
-                    </ul>
-                </div>
         
                 <div id="button-div">
+                    <button onclick="openSophos()">
+                        SOPHOS/skykick alert
+                    </button>
+                    <button onclick="openAutomox()">
+                        Automox alert
+                    </button>
+                    <button onclick="openPure()">
+                        Pure Storage Alert
+                    </button>
+                    <button onclick="openInternal()">
+                        N-Central TML alert
+                    </button>
+                    <button onclick="openExternal()">
+                        N-Central external alert
+                    </button>
+                    <button onclick="openLogic()">
+                        scienceLogic Alert
+                    </button>
                     <div class="return-div">
                         <button class="previous-btn" id="back-btn" onclick="history.back()">
                             Back
@@ -55,5 +87,7 @@
             </main>
         </div>
     </div>
+    <script type="text/javascript" src="..\index.js"></script>
+
 </body>
 </html>
