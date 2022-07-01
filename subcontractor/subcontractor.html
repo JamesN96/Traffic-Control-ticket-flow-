@@ -8,6 +8,22 @@
     <title>Subcontractor tickets</title>
 </head>
 <body>
+    <div class="popup" id="glassons">
+        <p>Please assign to traffic control</p>
+        <button onclick="closeGlassons()" id="close">Close</button>
+    </div>
+
+    <div class="popup" id="nsw">
+        <p>Please assign to a TL</p>
+        <button onclick="closeNsw()" id="close">Close</button>
+    </div>
+
+    <div class="popup" id="other">
+        <p>Please assign to traffic control with approval from TL</p>
+        <button onclick="closeOther()" id="close">Close</button>
+    </div>
+
+
     <div class="container">
         <video src="https://www.themissinglink.com.au/hubfs/1080098270-hd.mov" playsinline autoplay muted loop> </video>
 
@@ -25,16 +41,19 @@
                 <div>
                     <p>Choose one of the options below!</p>
                 </div>
-                
-                <div class="list-container">
-                    <ul>
-                        <li>Glassons/onsite support</li>
-                        <li>Onsite in NSW</li>
-                        <li>All other clients outside of NSW</li>
-                    </ul>
-                </div>
 
                 <div id="button-div">
+
+                    <button onclick="openGlassons()">
+                        Glassons onsite support
+                    </button>
+                    <button onclick="openNsw()">
+                        Onsite in NSW
+                    </button>
+                    <button onclick="openOther()">
+                        All other clients outside of NSW
+                    </button>
+
                     <div class="return-div">
                         <button class="previous-btn" id="back-btn" onclick="history.back()">
                             Back
@@ -51,6 +70,7 @@
         </div>
         
     </div>
+    <script type="text/javascript" src="..\index.js"></script>
 
 </body>
 </html>
