@@ -22,7 +22,7 @@ var pure = document.getElementById("pure");
 var internal = document.getElementById("internal");
 var external = document.getElementById("external");
 var logic = document.getElementById("logic");
-
+var urgency = document.getElementById("urgency");
 
 
 function closePopup() {
@@ -209,4 +209,14 @@ function openLogic() {
 
 function closeLogic() {
     logic.classList.remove("open-popup");
+}
+
+// incidents functions
+
+function openUrgency() {
+    urgency.classList.add("open-popup");
+}
+
+function closeUrgency() {
+    urgency.classList.remove("open-popup");
 }
