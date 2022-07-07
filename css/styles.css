@@ -151,3 +151,19 @@ a:link, a:visited {
     background-color: #fff;
     color:#000;
 }
+
+/* other html */
+
+#other-container {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    height: 100px;
+}
+
+#other-container p {
+    vertical-align: middle;
+   line-height: 100px;
+}
