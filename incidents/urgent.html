@@ -19,6 +19,11 @@
         <button onclick="closeL2()" id="close">Close</button>
     </div>
 
+    <div class="popup" id="urgency">
+        <p>Please assign to an L2</p>
+        <button onclick="closeUrgency()" id="close">Close</button>
+    </div>
+
     <div class="container">
         <video src="https://www.themissinglink.com.au/hubfs/1080098270-hd.mov" playsinline autoplay muted loop> </video>
     
@@ -31,12 +36,14 @@
             </header>
            
             <main>
-                <img src="\images\urgent-img.png" alt="Table of urgency guide">
                 <div>
                     <p>Choose one of the options below!</p>
                 </div>
         
                 <div id="button-div">
+                    <button onclick="openUrgency()">
+                        Click here for a guide on urgency
+                    </button>
                     <button onclick="openPopup()">
                         P1
                     </button>
