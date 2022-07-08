@@ -189,3 +189,17 @@ a:link, a:visited {
     vertical-align: middle;
     line-height: 100px;
 }
+
+
+.main-div {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #fff;
+    color: #000;
+    height: 100px;
+}
+
+.vertical {
+    vertical-align: middle;
+    line-height: 100px;
+}
