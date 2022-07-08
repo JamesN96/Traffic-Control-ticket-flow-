@@ -21,8 +21,10 @@ var automox = document.getElementById("automox");
 var pure = document.getElementById("pure");
 var internal = document.getElementById("internal");
 var external = document.getElementById("external");
+var logicExternal = document.getElementById("logicExternal");
 var logic = document.getElementById("logic");
 var urgency = document.getElementById("urgency");
+var disk = document.getElementById("disk");
 
 
 function closePopup() {
@@ -180,6 +182,14 @@ function closeAutomox() {
     automox.classList.remove("open-popup");
 }
 
+function openDisk() {
+    disk.classList.add("open-popup");
+}
+
+function closeDisk() {
+    disk.classList.remove("open-popup");
+}
+
 function openPure() {
     pure.classList.add("open-popup");
 }
@@ -201,6 +211,14 @@ function openExternal() {
 
 function closeExternal() {
     external.classList.remove("open-popup");
+}
+
+function openLogicExternal() {
+    logicExternal.classList.add("open-popup");
+}
+
+function closeLogicExternal() {
+    logicExternal.classList.remove("open-popup");
 }
 
 function openLogic() {
