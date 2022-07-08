@@ -17,6 +17,10 @@
             <p>Please assign to an associate</p>
             <button onclick="closeAutomox()" id="close">Close</button>
         </div>
+        <div class="popup" id="disk">
+            <p>Please assign to an L1</p>
+            <button onclick="closeDisk()" id="close">Close</button>
+        </div>
         <div class="popup" id="pure">
             <p>Please assign to David</p>
             <button onclick="closePure()" id="close">Close</button>
@@ -29,8 +33,12 @@
             <p>Please assign to an L1</p>
             <button onclick="closeExternal()" id="close">Close</button>
         </div>
-        <div class="popup" id="logic">
+        <div class="popup" id="logicExternal">
             <p>Please assign to an L1</p>
+            <button onclick="closeLogicExternal()" id="close">Close</button>
+        </div>
+        <div class="popup" id="logic">
+            <p>Please assign to an L2</p>
             <button onclick="closeLogic()" id="close">Close</button>
         </div>
 
@@ -60,8 +68,11 @@
                     <button onclick="openAutomox()">
                         Automox alert
                     </button>
+                    <button onclick="openDisk()">
+                        Pure Storage Disk Space Alert 
+                    </button>
                     <button onclick="openPure()">
-                        Pure Storage Alert
+                        Pure Storage Backup Alert
                     </button>
                     <button onclick="openInternal()">
                         N-Central TML alert
@@ -69,8 +80,11 @@
                     <button onclick="openExternal()">
                         N-Central external alert
                     </button>
+                    <button onclick="openLogicExternal()">
+                        LogicMonitor external Alert
+                    </button>
                     <button onclick="openLogic()">
-                        scienceLogic Alert
+                        LogicMonitor Internal Alert
                     </button>
                     <div class="return-div">
                         <button class="previous-btn" id="back-btn" onclick="history.back()">
