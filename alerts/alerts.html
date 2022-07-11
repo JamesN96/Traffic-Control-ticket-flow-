@@ -61,31 +61,37 @@
                     <p>Choose one of the options below!</p>
                 </div>
         
-                <div id="button-div">
-                    <button onclick="openSophos()">
-                        SOPHOS/skykick alert
-                    </button>
-                    <button onclick="openAutomox()">
-                        Automox alert
-                    </button>
-                    <button onclick="openDisk()">
-                        Pure Storage Disk Space Alert 
-                    </button>
-                    <button onclick="openPure()">
-                        Pure Storage Backup Alert
-                    </button>
-                    <button onclick="openInternal()">
-                        N-Central TML alert
-                    </button>
-                    <button onclick="openExternal()">
-                        N-Central external alert
-                    </button>
-                    <button onclick="openLogicExternal()">
-                        LogicMonitor external Alert
-                    </button>
-                    <button onclick="openLogic()">
-                        LogicMonitor Internal Alert
-                    </button>
+                <div class="flex-container">
+                    <div>
+                        <button onclick="openSophos()">
+                            SOPHOS/skykick alert
+                        </button>
+                        <button onclick="openAutomox()">
+                            Automox alert
+                        </button>
+                        <button onclick="openDisk()">
+                            Pure Storage Disk Space Alert 
+                        </button>
+                        <button onclick="openPure()">
+                            Pure Storage Backup Alert
+                        </button>
+                    </div>
+                    <div>
+                        <button onclick="openInternal()">
+                            N-Central TML alert
+                        </button>
+                        <button onclick="openExternal()">
+                            N-Central external alert
+                        </button>
+                        <button onclick="openLogicExternal()">
+                            LogicMonitor external Alert
+                        </button>
+                        <button onclick="openLogic()">
+                            LogicMonitor Internal Alert
+                        </button>
+                    </div>
+                </div>
+
                     <div class="return-div">
                         <button class="previous-btn" id="back-btn" onclick="history.back()">
                             Back
