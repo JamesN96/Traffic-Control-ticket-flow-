@@ -25,6 +25,10 @@ var logicExternal = document.getElementById("logicExternal");
 var logic = document.getElementById("logic");
 var urgency = document.getElementById("urgency");
 var disk = document.getElementById("disk");
+var inScope = document.getElementById("in-scope");
+var outScope = document.getElementById("out-scope");
+var wkGuide = document.getElementById("wk-guide");
+
 
 
 function closePopup() {
@@ -237,4 +241,30 @@ function openUrgency() {
 
 function closeUrgency() {
     urgency.classList.remove("open-popup");
+}
+
+// Scope functions
+
+function openInScope() {
+    inScope.classList.add("open-popup");
+}
+
+function closeInScope() {
+    inScope.classList.remove("open-popup");
+}
+
+function openOutScope() {
+    outScope.classList.add("open-popup");
+}
+
+function closeOutScope() {
+    outScope.classList.remove("open-popup");
+}
+
+function openWkGuide() {
+    wkGuide.classList.add("open-popup");
+}
+
+function closeWkGuide() {
+    wkGuide.classList.remove("open-popup");
 }
