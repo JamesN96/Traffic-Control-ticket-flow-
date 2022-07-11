@@ -75,8 +75,8 @@
                     <p>Choose one of the options below!</p>
                 </div>
     
-                <div id="button-div">
-                  
+                <div class="flex-container">
+                    <div class="flex-left">
                         <button onclick="openOffice()">
                             Office 365 change tickets
                         </button>
@@ -90,8 +90,10 @@
                             LAPS tickets
                         </button>
                         <button onclick="openBasic()">
-                            Basic troubleshooting tickets
+                            Basic troubleshoot tickets
                         </button>
+                    </div>
+                    <div class="flex-right">
                         <button onclick="openCw()">
                             Connectwise tickets
                         </button>
@@ -107,7 +109,9 @@
                         <button onclick="openP3()">
                             All other P3 tickets
                         </button>
-
+                    </div>
+                </div>
+                
                     <div class="return-div">
                         <button class="previous-btn" id="back-btn" onclick="history.back()">
                             Back
