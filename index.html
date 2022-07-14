@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href=".\css\styles.css">
+    <link rel="stylesheet" href="\css\styles.css">
     <script type="text/javascript" src="index.js"></script>
     <title>Traffic Control Ticket Guide</title>
 </head>
@@ -12,24 +12,21 @@
 <body>
     <div class="container">
         <video src="https://www.themissinglink.com.au/hubfs/1080098270-hd.mov" playsinline autoplay muted loop> </video>
-
         <div class="overlay">
             <header>
-                <h1 id="main-heading">
+                <h1 class="headings">
                     Traffic Control Ticket Guide
                 </h1> 
             </header>
-           
-            <main>
-                <h2>
-                    What type of ticket is it?
-                </h2>    
 
-                <div>
-                    <p>Choose one of the options below!</p>
-                </div>
+            <main>
+                <h2 class="headings">
+                    What type of ticket is it?
+                </h2>   
+                
+                <p class="headings">Choose one of the options below!</p>
         
-                <div class="flex-container">
+                <div class="flex-box button-div">
                     <div class="flex-left">
                         <button>
                             <a href=".\incidents\incident.html">Incident</a> 
@@ -62,18 +59,11 @@
                     </div>
                    
                 </div>
-                <button>
-                    <a href=".\other\other.html">Other</a> 
-                </button>
+                    <button id="other-btn">
+                        <a href=".\other\other.html">Other</a> 
+                    </button>
             </main>
         </div>
-        
     </div>
-   
-   
-    <footer>
-
-    </footer>
-    
 </body>
 </html>
