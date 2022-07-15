@@ -145,7 +145,7 @@ a:link, a:visited {
 
 /* Media Queries */
 
-@media (min-width: 40em) {
+@media (min-width: 30em) {
     body {
         overflow: hidden;
     }
