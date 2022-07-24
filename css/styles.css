@@ -107,7 +107,7 @@ a:link, a:visited {
     z-index: 100;
 }
 
-.guide-link {
+#guide, #guide-2 {
     text-decoration: underline;
     color: #000;
 }
