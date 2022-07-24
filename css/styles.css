@@ -297,7 +297,7 @@ a:link, a:visited {
     }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 900px) and (max-width: 44em) {
     * {
         font-size: 15px
     }
