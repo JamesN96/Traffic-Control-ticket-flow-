@@ -174,7 +174,8 @@ a:link, a:visited {
     }
 
     #close {
-        margin-top: 2em;
+        margin-top: 5em;
+        width: 30%;
     }
     
     .flex-box {
