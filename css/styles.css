@@ -151,54 +151,30 @@ a:link, a:visited {
 /* Media Queries */
 @media only screen and (min-width: 900px) {
     * {
-        font-size: 15px
+        font-size: 15px;
     }
-    
+
     body {
         overflow: scroll;
     }
 
     header {
-        padding: 0;
-        margin: 1em auto;
-    }
-
-    main {
-        color: #fff
-    }
-    
-    p {
-        margin: 1em auto 1em;
-        max-width: 80%;
-    }
-    
-    .headings {
-        color:aliceblue;
-    }
-    
-    h2.headings {
-        margin-top: 1.5em;
-    }
-}
-
-@media only screen and (min-width: 1300px) {
-    body {
-        overflow: hidden;
-    }
-
-    header {
         border-bottom: 3px solid #F47708;
-        padding: 3em 0;
-        margin: 2em auto;
+        padding: 0;
+        margin: 1em auto;    
     }
-    
+
     h1 {
         font-size: 4em;
     }
 
+    h2.headings {
+        margin-top: 1.5em;
+    }
+    
     p {
-        margin-top: 2em;
-        margin-bottom: -4em;
+        margin-top: 1em;
+        margin-bottom: -5em;
     }
 
     /* pop up divs */
@@ -325,6 +301,22 @@ a:link, a:visited {
         vertical-align: middle;
         line-height: 100px;
         margin: 2em auto;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    * {
+        font-size: 16px;
+    }
+
+    header {
+        padding: 3em 0;
+        margin: 2em auto;
+    }
+
+    p {
+        margin-top: 2em;
+        margin-bottom: -4em;
     }
 }
 
