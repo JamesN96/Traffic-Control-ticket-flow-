@@ -222,6 +222,10 @@ a:link, a:visited {
         margin-bottom: -2em;
     }
 
+    #alerts-flex button {
+        width: 80%;
+    }
+
     button {
         width: 15%;
     }
@@ -242,8 +246,13 @@ a:link, a:visited {
     #internal-main {
         margin-top: -3em;
     }
+
     #internal-flex {
         margin-bottom: -6em;
+    }
+
+    #internal-flex button {
+        width: 80%;
     }
 
     /* Urgent html */
