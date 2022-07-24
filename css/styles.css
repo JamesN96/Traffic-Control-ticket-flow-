@@ -150,6 +150,37 @@ a:link, a:visited {
 
 /* Media Queries */
 
+@media (min-width: 900px) {
+    * {
+        font-size: 15px
+    }
+    
+    body {
+        overflow: auto;
+    }
+
+    header {
+        padding: 0;
+        margin: 1em auto;
+    }
+
+    main {
+        color: #fff
+    }
+    
+    p {
+        margin: 1em auto 1em;
+        max-width: 80%;
+    }
+    
+    .headings {
+        color:aliceblue;
+    }
+    
+    h2.headings {
+        margin-top: 1.5em;
+    }
+
 @media (min-width: 45em) {
     body {
         overflow: hidden;
