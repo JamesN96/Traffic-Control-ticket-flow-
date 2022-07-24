@@ -150,7 +150,7 @@ a:link, a:visited {
 
 /* Media Queries */
 
-@media (min-width: 45em) {
+@media all and (min-width: 45em) {
     body {
         overflow: hidden;
     }
@@ -297,7 +297,7 @@ a:link, a:visited {
     }
 }
 
-@media screen and (min-width: 900px) and (max-width: 44em) {
+@media all and (max-width: 44em) and (min-width: 900px) {
     * {
         font-size: 15px
     }
