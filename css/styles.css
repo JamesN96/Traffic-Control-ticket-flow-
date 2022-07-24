@@ -180,6 +180,7 @@ a:link, a:visited {
     h2.headings {
         margin-top: 1.5em;
     }
+}
 
 @media (min-width: 45em) {
     body {
