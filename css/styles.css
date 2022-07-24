@@ -222,8 +222,9 @@ a:link, a:visited {
         margin-bottom: -2em;
     }
 
-    #alerts-flex button {
+    #alert-flex button {
         width: 80%;
+        font-size: 1em;
     }
 
     button {
@@ -253,6 +254,7 @@ a:link, a:visited {
 
     #internal-flex button {
         width: 80%;
+        font-size: 1em;
     }
 
     /* Urgent html */
