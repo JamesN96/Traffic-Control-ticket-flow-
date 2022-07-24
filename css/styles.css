@@ -173,6 +173,10 @@ a:link, a:visited {
         margin-top: 0em;
     }
 
+    #close {
+        margin-top: 0.8em;
+    }
+    
     .flex-box {
         display: flex;
         max-width: 50%;
