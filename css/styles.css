@@ -119,6 +119,7 @@ a:link, a:visited {
     margin-top: 6em;
 }
 /* Scope HTML*/
+
 #scope, #scope2 {
     text-decoration: underline;
     color: #000;
@@ -317,7 +318,7 @@ a:link, a:visited {
         margin: 2em auto;
     }
 }
-/* 
+
 @media only screen and (min-width: 1100px) {
     * {
         font-size: 13.5px;
@@ -326,7 +327,7 @@ a:link, a:visited {
     body {
         overflow: hidden;
     }
-} */
+}
 
 @media only screen and (min-width: 1300px) {
     * {
