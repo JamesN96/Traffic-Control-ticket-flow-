@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     text-align: center;
+    font-size: 100px;
     font-family: 'Manrope', sans-serif;
 }
 
@@ -211,15 +212,13 @@ a:link, a:visited {
     }
 
     /* Alerts */
-    #alerts-main {
-        margin-top: -1.4em;
-    }
+   
     #alert-flex {
         margin-bottom: -5em;
     }
 
     #alerts-h2 {
-        margin-bottom: -2em;
+        margin-bottom: -1em;
     }
 
     #alert-flex button {
@@ -244,12 +243,14 @@ a:link, a:visited {
     }
 
     /* Internal */
-    #internal-main {
-        margin-top: -3em;
+  
+    #internal-p {
+        margin-top: 2em;
+        margin-bottom: -2em;
     }
 
     #internal-flex {
-        margin-bottom: -6em;
+        margin-bottom: -4em;
     }
 
     #internal-flex button {
@@ -338,3 +339,4 @@ a:link, a:visited {
     }
 }
 
+/* TTRAFFIC CONTROL TICKET FLOW */
