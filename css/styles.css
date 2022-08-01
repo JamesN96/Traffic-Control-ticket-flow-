@@ -118,6 +118,11 @@ a:link, a:visited {
 .options-div {
     margin-top: 6em;
 }
+/* Scope HTML*/
+#scope, #scope2 {
+    text-decoration: underline;
+    color: #000;
+}
 
 /* Urgent html */
 
